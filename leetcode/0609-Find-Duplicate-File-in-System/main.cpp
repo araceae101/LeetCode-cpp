@@ -18,6 +18,7 @@ public:
                         filename = str.substr(0, i);
                         content = str.substr(i+1);
                         m[content].push_back(dir + '/' + filename);
+                        break;
                     }
                 }
             }
